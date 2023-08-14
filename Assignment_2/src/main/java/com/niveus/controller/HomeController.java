@@ -10,4 +10,9 @@ public class HomeController {
     public String home() {
         return "Welcome to the Springboot!";
     }
+        @GetMapping("/home")
+        public String base() {
+            return "Welcome to the Niveus!";
+        
+    }
 }
