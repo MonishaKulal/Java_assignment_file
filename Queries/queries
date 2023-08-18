@@ -1,0 +1,26 @@
+INSERT INTO public."Employee"(
+	"EmpID", "Name", "Salary", "DOB")
+	VALUES (1, 'Monisha', 100, '10/12/1998');
+	
+	INSERT INTO public."Employee"(
+	"EmpID", "Name", "Salary", "DOB")
+	VALUES (2, 'Karishma', 100, '10/12/1998');
+	
+	INSERT INTO public."Employee"(
+	"EmpID", "Name", "Salary", "DOB")
+	VALUES (3, 'Navya', 100, '10/12/1998');
+	
+	INSERT INTO public."Employee"(
+	"EmpID", "Name", "Salary", "DOB")
+	VALUES (5, 'Shanya', 100, '10/12/1998');
+	
+	
+	SELECT * FROM public."Employee";
+	
+	UPDATE public."Employee"
+	SET  "Name"='Manoj', "Salary"=200, "DOB"='10/12/1998'
+	WHERE "EmpID"=3;
+	
+DELETE FROM public."Employee"
+	WHERE "EmpID"=5;
+	
